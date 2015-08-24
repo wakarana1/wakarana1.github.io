@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Roboto+Condensed'>
+    <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="css/app.css">
     <script src="js/vendor/modernizr.js"></script>
 </head>
@@ -66,14 +67,17 @@
             </div>
         </div>
     </div>
-
+    <!-- project overview -->
     <div class="row">
         <div class="large-8 columns">
-            <h4 class="topic">This is a content section.</h4>
-            <p>
-            </p>
-     
+            <h4 class="topic">Project Overview</h4>
+            <div class="carousel">
+                <div><img src="img/patches.png" alt="patches"></div>
+                <div><img src="img/hashrobot.png" alt="#robot"></div>
+                <div><img src="img/hive.png" alt="hive"></div>
+            </div>
         </div>
+        <!-- skillset -->
         <div class="large-4 columns panel">
             <h4 class="topic">Full Stack of Skills</h4>
             <ul class="circle">
@@ -102,8 +106,15 @@
             </div>
             <div class="large-6 columns">
               <ul class="inline-list right">
-                <li><a href="https://www.linkedin.com/in/christophertwu"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://www.github.com/wakarana1"><i class="fa fa-github"></i></a></li>
+                <li class="linkedin">
+                    <a href="https://www.linkedin.com/in/christophertwu"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.github.com/wakarana1"><i class="fa fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="mailto:wu.chris@outlook.com"><i class="fa fa-envelope"></i></a>
+                </li>
               </ul>
             </div>
           </div>
@@ -112,9 +123,7 @@
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="slick/slick.min.js"></script>
     <script src="js/main.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
 </body>
 </html>
