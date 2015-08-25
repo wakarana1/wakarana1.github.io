@@ -14,3 +14,10 @@ body {
 .head h1, .head h2{
     color: white;
 }
+
+.nested {
+    margin-bottom: 0;
+}
+.project-img {
+    border: 1px black solid;
+}

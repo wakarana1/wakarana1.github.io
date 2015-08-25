@@ -13,12 +13,14 @@
     <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
+    <!-- navbar -->
     <div class="contain-to-grid sticky">
         <nav class="top-bar" data-topbar role="navigation">
             <ul class="title-area">
                 <li class="name">
                     <h1><a href="https://wakarana1.github.io">Christopher Wu</a></h1>
                 </li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
             </ul>
 
             <section class="top-bar-section">
@@ -30,6 +32,7 @@
                             <li class="active"><a href="projects.html">Overview Of Projects</a></li>
                             <li><a href="https://h-i-v-e.herokuapp.com">HIVE Collaborative Code Editor</a></li>
                             <li><a href="https://www.hashrobot.com">HashRobot</a></li>
+                            <li><a href="https://peaceful-thicket-3829.herokuapp.com/">Patches</a></li>
                         </ul>
                     </li>
                     <li><a href="resume.html">Resume</a></li>
@@ -38,39 +41,152 @@
             </section>
         </nav>
     </div>
-    <!-- main -->
+    <!-- header -->
     <div class="row">
         <div class="large-12 columns">
             <h1>Projects</h1>
         </div>
     </div>
     <hr>
+    <!-- project -->
     <div class="row">
-        <div class="large-4 columns">
+        <div class="large-12 columns">
             <h2>
-                <a href="https://peaceful-thicket-3829.herokuapp.com/">Patches</a>
+                <a href="https://peaceful-thicket-3829.herokuapp.com/">HIVE</a>
             </h2>
+            <p>
+                HIVE collaborative code editor was created with instructors and students in mind. With real time coding and syntax highlighting, you can watch your instructor code on your own screen and post up questions on the question board for your instructor to see so they can answer it during the lesson!
+            </p>
         </div>
     </div>
     <div class="row">
         <div class="large-8 columns">
-            <img src="img/patches.png" alt="Patches">
+            <img src="img/hive.png" alt="HIVE" class="project-img">
         </div>
+        <div class="large-4 columns">
+            <h3>
+                <u><strong>Built with:</strong></u>
+            </h3>
+            <ul>
+                <li>Firebase</li>
+                <li>Firepad</li>
+                    <ul class="nested">
+                        <li>CodeMirror</li>
+                    </ul>
+                <li>Express</li>
+                <li>jQuery</li>
+                <li>Node.JS</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- break -->
+    <div class="row">
+        <div class="large-12 columns">
+            <hr>
+        </div>
+    </div>
+
+
+    <!-- project -->
+    <div class="row">
+        <div class="large-12 columns">
+            <h2>
+                <a href="https://www.hashrobot.com/">HashRobot</a>
+            </h2>
+            <p>
+                HashRobot is your personal marketing consultant. HashRobot will give the most visible and used hashtags in a given category. Using these hashtags will give social media users an edge in gaining more visibility and followers. HashRobot makes it easy for you to tweet right from our hashdash. Great content deserves to be #noticed.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-4 columns">
+            <h3>
+                <u><strong>Built with:</strong></u>
+            </h3>
+            <ul>
+                <li>Ruby on Rails</li>
+                <li>Materialize.css</li>
+                <li>Font Awesome</li>
+                <li>Google Fonts</li>
+                <li>Heroku</li>
+                <li>Twitter API</li>
+                    <ul class="nested">
+                        <li>To display hashtags and OAuth</li>
+                    </ul>
+                <li>MonkeyLearn API</li>
+                    <ul class="nested">
+                        <li>To analyze tweets and retrieve relevant categories</li>
+                    </ul>
+            </ul>
+        </div>
+        <div class="large-8 columns">
+            <img src="img/hashrobot.png" alt="#Robot" class="project-img">
+        </div>
+    </div>
+
+    <!-- break -->
+    <div class="row">
+        <div class="large-12 columns">
+            <hr>
+        </div>
+    </div>
+
+    <!-- project -->
+    <div class="row">
+        <div class="large-12 columns">
+            <h2>
+                <a href="https://peaceful-thicket-3829.herokuapp.com/">Patches</a>
+            </h2>
             <p>
                 Patches is a website where users are able to log into the site and ask and/or answer questions. This website was built to be a simpler version of stackoverflow.com.
             </p>
         </div>
     </div>
+    <div class="row">
+        <div class="large-8 columns">
+            <img src="img/patches.png" alt="Patches" class="project-img">
+        </div>
+        <div class="large-4 columns">
+            <h3>
+                <u><strong>Built with:</strong></u>
+            </h3>
+            <ul>
+                <li>Ruby on Rails</li>
+                <li>Bootstrap</li>
+                <li>Heroku</li>
+            </ul>
+        </div>
+    </div>
 
 
+<footer class="row">
+    <div class="large-12 columns">
+        <hr>
+        <div class="row">
+            <div class="large-6 columns">
+              <p>© Christopher Wu, 2015</p>
+            </div>
+            <div class="large-6 columns">
+                <ul class="inline-list right">
+                    <li class="linkedin">
+                        <a href="https://www.linkedin.com/in/christophertwu"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.github.com/wakarana1"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:wu.chris@outlook.com?subject=Let's%20Chat!&body=Hi%20Chris!"><i class="fa fa-envelope"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
-
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
