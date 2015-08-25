@@ -1,12 +1,6 @@
 body {
     font-family: Menlo;
 }
-.main {
-    text-align: center;
-    width: 1000px;
-    height: 500px;
-    background: url('../img/background.png');
-}
 .head {
     margin-top: 180px;
     /*background-color: rgba(255,255,255,.7);*/
@@ -14,7 +8,6 @@ body {
 .head h1, .head h2{
     color: white;
 }
-
 .nested {
     margin-bottom: 0;
 }
