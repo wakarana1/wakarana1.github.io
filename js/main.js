@@ -1,7 +1,9 @@
-$(document).foundation();
 $(document).ready(function() {
     $('.carousel').slick({
-        // dots: true,
-        infinite: true
+        dots: true,
+        infinite: true,
+        autoplay: true,
+        mobileFirst: true
     });
 });
+$(document).foundation();

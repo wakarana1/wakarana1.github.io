@@ -11,6 +11,6 @@ body {
     margin-top: 180px;
     /*background-color: rgba(255,255,255,.7);*/
 }
-.head h1,h2{
+.head h1, .head h2{
     color: white;
 }
